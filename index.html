@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+	  
+	<link href="css/body.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+  </head>
+  <body>
+ 
+  <div class="page flex-col">
+      <div class="box_1 flex-col">
+        <div class="box_2 flex-col">
+          <div class="block_1 flex-row">
+          
+           <html xmlns="http://www.w3.org/1999/xhtml">
+           
+           <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>css实现超好看的搜索框和按钮</title>
+<style type="text/css" media="screen">
+     
+    </style>
+           
+
+<body>
+<div class="container">
+  <div id="search">
+    <label for="search"><a href="http://sc.chinaz.com" target="_blank"></a></label>
+    <input type="text" name="q">
+    <input class="button" type="submit" value="Search">
+  </div>
+</div>
+
+</body>
+</html>
+
+</div>  
+			
+<div class="align-center" id="all">
+
+
+
+
+
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+  </script>
+
+
+<ul id="jsddm">
+		<li class="cs"><a>城市</a>
+		<ul>
+			<li ><a href="jdz/form1.html">景德镇</a></li>
+			<li><a href="wy/form1.html">婺源</a></li>
+			<li><a href="nc/form1.html">南昌</a></li>
+			<li><a href="fz/form1.html">抚州</a></li>  
+			<li><a href="gz/form1.html">赣州</a></li>
+		</ul>
+	</li>
+	<li class="xm"><a>非遗项目</a>
+		<ul>
+			<li><a href="jdz/form2.html">陶瓷</a></li>
+			<li><a href="wy/form2.html">油纸伞</a></li>
+			<li><a href="nc/form2.html">瓷板画</a></li>
+			<li><a href="fz/form2.html">傩舞</a></li>
+			<li><a href="gz/form2.html">采茶戏</a></li>
+		</ul>
+	</li>
+		<li id="dr" onClick="MM_showHideLayers('drzc','','show')" onMouseDown="MM_showHideLayers('drzc','','hide')"><a href="#">用户登入</a>
+	</li>
+</ul>
+<div class="clear"> </div>
+
+<br>
+
+
+</div>
+</div>
+
+        
+
+<div class="login-wrap" id="drzc">
+		<div class="login-html">
+		  <input id="tab-1" type="radio" name="tab" class="sign-in" checked=""><label for="tab-1" class="tab">登录</label>
+			<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">注册</label>
+			<div class="login-form">
+				<div class="sign-in-htm">
+					<div class="group">
+						<label for="user" class="label">用户名</label>
+					  <input id="user" type="text" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">密码</label>
+					  <input id="pass" type="password" class="input" data-type="password">
+					</div>
+					<div class="group">
+						<input id="check" type="checkbox" class="check" checked="">
+						<label for="check"><span class="icon"></span> 记住密码</label>
+					</div>
+				  <div class="group" id="deng">
+						<input type="submit" class="button" onClick="MM_showHideLayers('drzc','','hide')" value="登录">
+					</div>
+					
+					<div class="hr"></div>
+				  <div class="foot-lnk">
+						<a href="#forgot">忘记密码?</a>
+					</div>
+				</div>
+				<div class="sign-up-htm">
+					<div class="group">
+						<label for="user" class="label">用户名</label>
+						<input id="user" type="text" class="input">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">密码</label>
+						<input id="pass" type="password" class="input" data-type="password">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">确认密码</label>
+						<input id="pass" type="password" class="input" data-type="password">
+					</div>
+					<div class="group">
+						<label for="pass" class="label">邮箱</label>
+						<input id="pass" type="text" class="input">
+					</div>
+					<div class="group" id="zhu">
+						<input type="submit" class="button" onClick="MM_showHideLayers('huan','','show')" value="注册">
+					</div>
+				  <div class="huanying" id="huan">欢迎注册</div>
+					<div class="hr"></div>
+					<div class="foot-lnk">
+						<label for="tab-1">已注册登录?
+					</label></div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="headeline">
+  <div class="image-wrapper_1 flex-row"><img
+              class="image_2"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/psgtd4ihr8faed5lctwbevl31rlaqu9a2w77d630c2-76db-4ddb-b130-2af59c5cba0d"
+            /></div>
+  
+  
+  <div class="sytext1">江西非遗文旅</div>
+  <div class="sytext2"> 非遗文化华夏宝库</div>
+  <div class="sytext3">开启自驾旅游</div>
+  
+  <div class="image-wrapper_2 flex-row"><img
+              class="image_3"
+              referrerpolicy="no-referrer"
+              src="images/小车.png"
+            /></div>
+  <div class="image-wrapper_3 flex-row"><img
+              class="image_4"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/psmzzigni9vfmykmno07f6ltysvm9e1so9134ce222-436d-4d2d-8de6-620f9a53220f"
+            /></div>
+  
+  
+  
+  
+</div>
+<div class="image-wrapper_4 flex-row justify-between"> <a href="jdz/form1.html" class="taoci"><img
+              src="images/陶瓷.png"
+              class="jdimage_5" id="tc" onMouseOver="MM_showHideLayers('j','','show')"onMouseOut="MM_showHideLayers('j','','hide')"
+              referrerpolicy="no-referrer"
+            /></a>
+  <div class="tcz" id="j" >景德镇</div>
+  <a href="wy/form1.html" class="san"><img
+              src="images/油纸伞.png"
+              class="wyimage_6" id="s"onMouseOver="MM_showHideLayers('w','','show')"onMouseOut="MM_showHideLayers('w','','hide')"
+              referrerpolicy="no-referrer"
+            /></a>
+  <div class="sanz" id="w">婺源</div>
+  <a href="nc/form1.html" class="cibanhua"><img
+              src="images/瓷板画.png"
+              class="ncimage_7" id="cbh"onMouseOver="MM_showHideLayers('nn','','show')"onMouseOut="MM_showHideLayers('nn','','hide')"
+              referrerpolicy="no-referrer"
+            /></a>
+  <div class="nwz" id="nn">南昌</div>
+  <a href="fz/form1.html" class="nuowu"><img
+              src="images/傩面具.png"
+              class="fzimage_8" id="nmj"onMouseOver="MM_showHideLayers('f','','show')" onMouseOut="MM_showHideLayers('f','','hide')"
+              referrerpolicy="no-referrer"
+            /></a>
+  <div class="cbhz" id="f">抚州</div>
+  <a href="gz/form1.html" class="caichawu"><img
+              src="images/采茶戏.png"
+              class="gzimage_9" id="ccx"onMouseOver="MM_showHideLayers('g','','show')"onMouseOut="MM_showHideLayers('g','','hide')"
+              referrerpolicy="no-referrer"
+            /></a>
+  <div class="cbhz" id="g">赣州</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
